@@ -21,16 +21,18 @@ form input:hover{
 }
 
 form input:focus{
+    outline:none;
     border: 1px solid #4e75ff;
+    
 }
 
 form input::placeholder{
     font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.04em;
-color: #808080;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 0.04em;
+   color: #808080;
 }
 form button{
     border-radius: 8px;

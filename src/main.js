@@ -42,5 +42,4 @@ function onSubmit(event) {
       hideLoader();
       refs.form.reset();
     });
-  console.log('onSubmit called!');
 }
